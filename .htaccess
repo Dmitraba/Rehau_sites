@@ -1,0 +1,10 @@
+# Это файл для локальных серверов Apache.
+# На GitHub Pages (обычно) не применяется.
+
+<IfModule mod_headers.c>
+  Header set X-Robots-Tag "noindex, nofollow"
+</IfModule>
+
+# На всякий случай отключаем листинг директорий.
+Options -Indexes
+
